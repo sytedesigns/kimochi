@@ -71,12 +71,12 @@ const MENU_SECTIONS = [
 const SPECIALTY = {
   season: "Spring / Summer ’26",
   series: [
-    { id: "pbj", name: "PB & J", base: "Earl Grey milk tea", build: ["Peanut butter · Strawberry", "Strawberry cream top · PB crumbles"], caffeine: false },
-    { id: "strawberry-fields", name: "Strawberry Fields", base: "Earl Grey or Jasmine tea", build: ["Strawberry · Basil", "Strawberry popping boba"], caffeine: false },
-    { id: "orange-creamsicle", name: "Orange Creamsicle", base: "Earl Grey milk tea", build: ["Orange · Vanilla", "Whipped cream · Sugar crystals"], caffeine: false },
-    { id: "razz-biscus", name: "Razz-biscus", base: "Earl Grey or Jasmine tea", build: ["Raspberry · Hibiscus", "Lychee jelly"], caffeine: false },
-    { id: "cookie-monster", name: "Cookie Monster", base: "Cookies & cream slush", build: ["Mocha · Whipped cream", "Oreo"], caffeine: false },
-    { id: "mango-shirley", name: "Mango Shirley", base: "House lemonade", build: ["Mango · Grenadine", "Mango popping boba"], caffeine: false },
+    { id: "pbj", name: "PB & J", image: "assets/pb-j.jpg", base: "Earl Grey milk tea", build: ["Peanut butter · Strawberry", "Strawberry cream top · PB crumbles"], caffeine: false },
+    { id: "strawberry-fields", name: "Strawberry Fields", image: "assets/strawberry-fields.jpg", base: "Earl Grey or Jasmine tea", build: ["Strawberry · Basil", "Strawberry popping boba"], caffeine: false },
+    { id: "orange-creamsicle", name: "Orange Creamsicle", image: "assets/orange-creamsicle.jpg", base: "Earl Grey milk tea", build: ["Orange · Vanilla", "Whipped cream · Sugar crystals"], caffeine: false },
+    { id: "razz-biscus", name: "Razz-biscus", image: "assets/razz-biscus.jpg", base: "Earl Grey or Jasmine tea", build: ["Raspberry · Hibiscus", "Lychee jelly"], caffeine: false },
+    { id: "cookie-monster", name: "Cookie Monster", image: "assets/cookie-monster.png", base: "Cookies & cream slush", build: ["Mocha · Whipped cream", "Oreo"], caffeine: false },
+    { id: "mango-shirley", name: "Mango Shirley", image: "assets/mango-shirley.jpg", base: "House lemonade", build: ["Mango · Grenadine", "Mango popping boba"], caffeine: false },
   ],
   specialtyEspresso: [
     { name: "Honey Bee", build: "Honey · Lavender · Vanilla cream top" },

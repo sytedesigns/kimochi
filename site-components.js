@@ -73,9 +73,8 @@ function renderSpecialtyBlock() {
   const cards = series.map((d, i) => `
     <article class="specialty-card">
       <div class="specialty-card-media">
-        <image-slot id="spec-${d.id}" shape="rounded" radius="18"
-          placeholder="Drop ${d.name} photo"
-          style="width:100%;height:300px;display:block"></image-slot>
+        <img src="${d.image}" alt="${d.name}" loading="lazy"
+          style="width:100%;height:300px;object-fit:cover;display:block;border-radius:18px">
       </div>
       <div class="specialty-card-body">
         <h3 class="specialty-card-name">${d.name}${d.caffeine ? '<span class="caf-mark">*</span>' : ""}</h3>
@@ -103,7 +102,7 @@ function renderSpecialtyBlock() {
       <div class="specialty-hero">
         <span class="specialty-hero-eyebrow">Seasonal feature · ${season}</span>
         <h2 class="specialty-hero-script">Specialty Drink Series</h2>
-        <p class="specialty-hero-lead">A rotating cast of signature builds — layered, named, and made to order. Here while the season lasts.</p>
+        <p class="specialty-hero-lead">Here while the season lasts.</p>
       </div>
       <div class="specialty-series">${cards}</div>
       <div class="espresso-bar">
